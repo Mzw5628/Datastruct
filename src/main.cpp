@@ -1,3 +1,4 @@
+#include "Stack/stack.h"
 #include "linked_list/linked_list.h"
 
 void list_test()
@@ -12,7 +13,23 @@ void list_test()
     list.print();
 
 }
+void stack_test()
+{
+    ds::stack st;
+    st.push(3);
+    st.push(5);
+    st.push(7);
+    st.push(1);
+    st.push(4);
+    st.push(8);
+    st.print();
+    st.pop();
+    st.pop();
+    st.pop();
+    st.print();
+}
 int main() {
-    list_test();
+    // list_test();
+    stack_test();
     return 0;
 }
