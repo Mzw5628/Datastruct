@@ -1,6 +1,7 @@
 #include "linked_list/linked_list.h"
 
-int main() {
+void list_test()
+{
     ds::LinkedList list; 
     list.push_back(4);
     list.push_back(5);
@@ -9,5 +10,9 @@ int main() {
     list.push_front(2);
     list.push_front(1);
     list.print();
+
+}
+int main() {
+    list_test();
     return 0;
 }
