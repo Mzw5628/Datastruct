@@ -1,6 +1,7 @@
 #include "Queue/queue.h"
 #include "Stack/stack.h"
 #include "linked_list/linked_list.h"
+#include <iostream>
 
 // 链表测试
 void list_test()
@@ -31,7 +32,6 @@ void stack_test()
     st.pop();
     st.print();
 }
-
 // 队列测试
 void queue_test()
 {
@@ -47,10 +47,26 @@ void queue_test()
     }
     q.print();
 }
+
+void doubeList_test()
+{
+    ds::doublyList dlist;
+    dlist.push_front(99);
+    dlist.push_back(5);
+    dlist.push_back(6);
+    dlist.push_back(7);
+    dlist.push_front(1);
+    dlist.push_front(2);
+    dlist.push_front(3);
+    dlist.print();
+    std::cout << dlist.size();
+}
+
 int main()
 {
     // list_test();
     // stack_test();
-    queue_test();
+    // queue_test();
+    doubeList_test();
     return 0;
 }
