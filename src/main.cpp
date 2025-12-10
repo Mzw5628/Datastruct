@@ -48,6 +48,7 @@ void queue_test()
     q.print();
 }
 
+//双向链表测试
 void doubeList_test()
 {
     ds::doublyList dlist;
@@ -62,11 +63,30 @@ void doubeList_test()
     std::cout << dlist.size();
 }
 
+// 循环链表测试
+void circleList_test()
+{
+    ds::circleList cList;
+    cList.push_back(5);
+    cList.push_back(6);
+    cList.push_back(7);
+    cList.push_front(1);
+    cList.push_front(2);
+    cList.push_front(3);
+    cList.print(cList.size());
+    cList.insert(50, 5);
+    cList.print(cList.size());
+    cList.remove(4);
+    cList.print(cList.size());
+    cList.print(15);
+
+}
 int main()
 {
     // list_test();
     // stack_test();
     // queue_test();
-    doubeList_test();
+    // doubeList_test();
+    circleList_test();
     return 0;
 }
