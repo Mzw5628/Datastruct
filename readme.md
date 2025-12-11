@@ -1,5 +1,6 @@
 ## 数据结构学习
 
+- 线性表 实现
 - 链表 List 实现
 - 双向链表 doublyList 实现
 - 循环链表 circleList 实现

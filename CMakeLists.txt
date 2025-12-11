@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_subdirectory(src/linked_list)
 add_subdirectory(src/Stack)
 add_subdirectory(src/Queue)
+add_subdirectory(src/ArrayList)
 
 # 顶层可执行文件
 add_executable(main_exec src/main.cpp)
@@ -16,6 +17,8 @@ add_executable(main_exec src/main.cpp)
 target_link_libraries(main_exec PRIVATE linked_list_lib)
 target_link_libraries(main_exec PRIVATE ds_stack_lib)
 target_link_libraries(main_exec PRIVATE ds_queue_lib)
+target_link_libraries(main_exec PRIVATE ds_ArrayList_lib)
+
 
 # 让 各链接库 能被找到（把 src 设为 include 路径）
 target_include_directories(main_exec PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)

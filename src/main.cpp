@@ -1,6 +1,7 @@
 #include "Queue/queue.h"
 #include "Stack/stack.h"
 #include "linked_list/linked_list.h"
+#include "ArrayList/ArrayList.h"
 #include <iostream>
 
 // 链表测试
@@ -81,12 +82,31 @@ void circleList_test()
     cList.print(15);
 
 }
+
+// 顺序表测试
+void array_test()
+{
+    ds::ArrayList array;
+    array.push(1);
+    array.push(2);
+    array.push(3);
+    array.push(4);
+    array.push(5);
+    array.push(6);
+    array.push(7);
+    array.insert(10, 0);
+    array.print();
+    array.remove(6);
+    array.print();
+}
+
 int main()
 {
     // list_test();
     // stack_test();
     // queue_test();
     // doubeList_test();
-    circleList_test();
+    // circleList_test();
+    array_test();
     return 0;
 }
