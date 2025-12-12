@@ -10,8 +10,9 @@ public:
 
     void push(int x);
     void insert(int x, int pos);
-    void remove(int pos);
-    bool search(int x);
+    void remove(int x);
+    int find(int x);
+    void change(int x, int y);
     void print();
 
 private:

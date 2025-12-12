@@ -3,7 +3,9 @@
 
 namespace ds {
 
-ArrayList::ArrayList():size(0),maxSize(10)
+ArrayList::ArrayList()
+    : size(0)
+    , maxSize(10)
 {
     arr = new int[maxSize];
 }
@@ -35,37 +37,46 @@ void ArrayList::insert(int x, int pos)
     }
 }
 
-void ArrayList::remove(int pos)
+void ArrayList::remove(int x)
 {
-    if (pos < 1 || pos > size) {
-        printf("Input out of size");
+    int i = find(x);
+    if (i == -1) {
+        return;
     } else {
-        for (int i = pos; i < size - 1; i++) {
-            arr[i] = arr[i + 1];
+        for (int j = i; j < size - 1; j++) {
+            arr[j] = arr[j + 1];
         }
-        arr[size] = 0;
         size--;
     }
 }
 
-bool ArrayList::search(int x)
+int ArrayList::find(int x)
 {
     for (int i = 0; i < size; i++) {
         if (arr[i] == x) {
-            return true;
+            return i;
         }
     }
-    return false;
+    printf("there is no %d in data\n", x);
+    return -1;
+}
+
+void ArrayList::change(int x, int y)
+{
+    int pos = find(x);
+    if (pos != -1) {
+        arr[pos] = y;
+    }
 }
 
 void ArrayList::print()
 {
     if (size <= 0) {
-        printf("there is no number");
+        printf("there is no number\n");
         return;
     }
     for (int i = 0; i < size; i++) {
-        printf("%d ",arr[i]);
+        printf("%d ", arr[i]);
     }
     printf("\n");
 }

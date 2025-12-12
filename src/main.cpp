@@ -1,8 +1,9 @@
+#include "ArrayList/ArrayList.h"
 #include "Queue/queue.h"
 #include "Stack/stack.h"
 #include "linked_list/linked_list.h"
-#include "ArrayList/ArrayList.h"
 #include <iostream>
+
 
 // 链表测试
 void list_test()
@@ -49,7 +50,7 @@ void queue_test()
     q.print();
 }
 
-//双向链表测试
+// 双向链表测试
 void doubeList_test()
 {
     ds::doublyList dlist;
@@ -80,13 +81,13 @@ void circleList_test()
     cList.remove(4);
     cList.print(cList.size());
     cList.print(15);
-
 }
 
 // 顺序表测试
 void array_test()
 {
     ds::ArrayList array;
+    array.print();
     array.push(1);
     array.push(2);
     array.push(3);
@@ -94,9 +95,12 @@ void array_test()
     array.push(5);
     array.push(6);
     array.push(7);
+    array.print();
     array.insert(10, 0);
     array.print();
     array.remove(6);
+    array.print();
+    array.change(6, 99);
     array.print();
 }
 
