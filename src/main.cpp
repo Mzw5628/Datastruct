@@ -1,9 +1,8 @@
 #include "ArrayList/ArrayList.h"
+#include "LinkedList/linked_list.h"
 #include "Queue/queue.h"
 #include "Stack/stack.h"
-#include "linked_list/linked_list.h"
 #include <iostream>
-
 
 // 链表测试
 void list_test()
@@ -106,11 +105,11 @@ void array_test()
 
 int main()
 {
-    // list_test();
+    list_test();
     // stack_test();
     // queue_test();
-    // doubeList_test();
-    // circleList_test();
-    array_test();
+    doubeList_test();
+    circleList_test();
+    // array_test();
     return 0;
 }

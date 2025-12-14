@@ -1,4 +1,5 @@
 #pragma once
+#include <cstdio>
 #include <iostream>
 
 namespace ds {
@@ -15,6 +16,7 @@ struct Node {
     }
 };
 
+// 链表
 class LinkedList {
 public:
     LinkedList();
@@ -45,6 +47,7 @@ struct doublyNode {
     }
 };
 
+// 双向链表
 class doublyList {
 public:
     doublyList();
@@ -61,6 +64,7 @@ private:
     int len;
 };
 
+// 循环链表
 class circleList {
 public:
     circleList();
@@ -79,4 +83,5 @@ private:
     Node* tail;
     int len;
 };
+
 } // namespace ds
