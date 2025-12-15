@@ -34,6 +34,25 @@ private:
     int len;
 };
 
+// 带头结点的链表
+class LinkedListWithHead {
+public:
+    LinkedListWithHead();
+    void insert_head(int x);
+    void insert_rear(int x);
+    // 在数据x后插入k
+    void insert(int x, int k);
+    Node* search(int x);
+    void remove(int x);
+    // 把数据x变成k
+    void change(int x, int k);
+
+    void print();
+
+private:
+    Node* Head;
+};
+
 // 该节点有指向前后节点的指针
 struct doublyNode {
     int data;

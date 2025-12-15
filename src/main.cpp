@@ -17,6 +17,25 @@ void list_test()
     list.print();
 }
 
+// 带头节点的链表测试
+void list_with_head_test()
+{
+    ds::LinkedListWithHead list;
+    list.insert_head(1);
+    list.insert_head(2);
+    list.insert_head(3);
+    list.insert_rear(4);
+    list.insert_rear(5);
+    list.insert_rear(6);
+    list.print();
+    list.insert(4, 99);
+    list.print();
+    list.remove(99);
+    list.remove(46);
+    list.change(6, 79);
+    list.print();
+}
+
 // 栈测试
 void stack_test()
 {
@@ -105,11 +124,12 @@ void array_test()
 
 int main()
 {
-    list_test();
+    // list_test();
     // stack_test();
     // queue_test();
-    doubeList_test();
-    circleList_test();
+    // doubeList_test();
+    // circleList_test();
     // array_test();
+    list_with_head_test();
     return 0;
 }
