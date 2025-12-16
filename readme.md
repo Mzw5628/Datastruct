@@ -6,3 +6,6 @@
 - 循环链表 circleList 实现
 - 栈 Stack 实现(基于数组)
 - 队列 Queue 实现(基于数组)
+
+#### 运行以下命令来编译并运行 
+cmake -S . -B build && cmake --build build && ./build/main_exec
