@@ -1,11 +1,35 @@
-## 数据结构学习
+# 📚 数据结构学习
 
-- 线性表 优化增删改查
-- 链表 List 实现
-- 双向链表 doublyList 实现
-- 循环链表 circleList 实现
-- 栈 Stack 实现(基于数组)
-- 队列 Queue 实现(基于数组)
+## ✧ 顺序表
+- **基础顺序表**：ArrayList实现
 
-#### 运行以下命令来编译并运行 
-cmake -S . -B build && cmake --build build && ./build/main_exec
+## ✧ 链表
+- **基础链表**：List 实现
+- **扩展类型**：
+  - 双向链表（doublyList 实现）
+  - 循环链表（circleList 实现）
+
+## ✧ 栈
+- **实现方式**：基于数组的 Stack 实现
+
+## ✧ 队列
+- **实现方式**：基于数组的 Queue 实现
+
+## ✧ 树结构
+- **表示方法**：双亲表示法
+
+---
+
+## 🚀 编译与运行
+
+### 分步执行：
+```bash
+▸ cmake -S . -B build
+▸ cmake --build build
+▸ ./build/main_exec
+```
+
+### 或合并执行：
+```bash
+▸ cmake -S . -B build && cmake --build build && ./build/main_exec
+```

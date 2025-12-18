@@ -2,6 +2,7 @@
 #include "LinkedList/linked_list.h"
 #include "Queue/queue.h"
 #include "Stack/stack.h"
+#include "Tree/tree.h"
 #include <iostream>
 
 // 链表测试
@@ -122,6 +123,21 @@ void array_test()
     array.print();
 }
 
+void tree_test()
+{
+    //设置根节点
+    ds::tree tr('A');
+    
+    for (int i = 0; i < 9; i++) {
+        char data, parent;
+        std::cin >> data >> parent;
+        tr.insert(data, parent);
+    }
+    char ch;
+    std::cin>>ch;
+    tr.find_parent(ch);
+    
+}
 int main()
 {
     // list_test();
@@ -130,6 +146,7 @@ int main()
     // doubeList_test();
     // circleList_test();
     // array_test();
-    list_with_head_test();
+    // list_with_head_test();
+    tree_test();
     return 0;
 }
