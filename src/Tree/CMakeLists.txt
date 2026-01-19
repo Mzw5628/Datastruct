@@ -1,4 +1,7 @@
-set(SRCS tree.cpp)
+set(SRCS 
+    tree.cpp
+    BTtree.cpp
+)
 # 创建库 target，名字约定为 ds_stack_lib
 add_library(ds_tree_lib ${SRCS})
 

@@ -125,18 +125,24 @@ void array_test()
 
 void tree_test()
 {
-    //设置根节点
+    // 设置根节点
     ds::tree tr('A');
-    
+
     for (int i = 0; i < 9; i++) {
         char data, parent;
         std::cin >> data >> parent;
         tr.insert(data, parent);
     }
     char ch;
-    std::cin>>ch;
+    std::cin >> ch;
     tr.find_parent(ch);
-    
+}
+
+void BT_test()
+{
+    ds::BTree Btree;
+    ds::BTreeNode* root = Btree.getRoot();
+    Btree.perOrderBT(root);
 }
 int main()
 {
@@ -147,6 +153,17 @@ int main()
     // circleList_test();
     // array_test();
     // list_with_head_test();
-    tree_test();
+    // tree_test();
+    // 二叉树结构
+    //     A
+    /*    / \
+    //   B   C
+    //  / \   \
+    // D   E   F
+    //    /
+    //   G
+    */
+    BT_test();
+
     return 0;
 }

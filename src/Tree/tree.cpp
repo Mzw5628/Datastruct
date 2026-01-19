@@ -4,7 +4,7 @@
 namespace ds {
 tree::tree(char x)
 {
-    arr = new treeNode[100];
+    arr = new arrayTreeNode[100];
     arr[0].data=x;
     arr[0].parent = -1;
     size=1;

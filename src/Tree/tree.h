@@ -3,7 +3,8 @@
 
 namespace ds {
 
-struct treeNode {
+// 用数组存储的树
+struct arrayTreeNode {
     char data;
     int parent;
 };
@@ -18,8 +19,25 @@ public:
     void find_parent(char x);
 
 private:
-    treeNode* arr;
+    arrayTreeNode* arr;
     int size;
+};
+
+// BtreeNode二叉树结点
+struct BTreeNode {
+    char data;
+    BTreeNode* left;
+    BTreeNode* right;
+};
+
+class BTree {
+public:
+    BTree();
+
+    void perOrderBT(BTreeNode* r);
+    BTreeNode* getRoot();
+private:
+    BTreeNode* root;
 };
 
 }
