@@ -35,6 +35,8 @@ public:
     BTree();
 
     void perOrderBT(BTreeNode* r);
+    void DFS(BTreeNode* r);
+    void BFS(BTreeNode* r);
     BTreeNode* getRoot();
 private:
     BTreeNode* root;

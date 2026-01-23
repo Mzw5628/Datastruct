@@ -1,5 +1,7 @@
 #include "tree.h"
 #include <cstdio>
+#include <queue>
+#include <stack>
 
 namespace ds {
 BTree::BTree()
@@ -27,17 +29,57 @@ BTree::BTree()
     // 返回根结点
     root = A;
 }
+
 BTreeNode* BTree::getRoot()
 {
     return root;
 }
+
 void BTree::perOrderBT(BTreeNode* r)
 {
     if (r == nullptr) {
         return;
     }
     printf("%c", r->data); // 该语句在此为先序遍历
-    perOrderBT(r->left);        // 在此为中序遍历
-    perOrderBT(r->right);       // 在此为后序遍
+    perOrderBT(r->left); // 在此为中序遍历
+    perOrderBT(r->right); // 在此为后序遍
+}
+
+void BTree::DFS(BTreeNode* r)
+{
+    std::stack<BTreeNode*> st;
+    BTreeNode* node = nullptr;
+    if (r == nullptr)
+        return;
+    st.push(r);
+
+    while (!st.empty()) {
+        node = st.top();
+        printf("%c ", node->data);
+        st.pop();
+        if (node->right)
+            st.push(node->right);
+        if (node->left)
+            st.push(node->left);
+    }
+}
+
+void BTree::BFS(BTreeNode* r)
+{
+    std::queue<BTreeNode*> q;
+    BTreeNode* node = nullptr;
+    if (r == nullptr)
+        return;
+
+    q.push(r);
+    while (!q.empty()) {
+        node = q.front();
+        printf("%c ",node->data);
+        q.pop();
+        if (node->left)
+            q.push(node->left);
+        if (node->right)
+            q.push(node->right);
+    }
 }
 }

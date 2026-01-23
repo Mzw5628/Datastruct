@@ -3,6 +3,7 @@
 #include "Queue/queue.h"
 #include "Stack/stack.h"
 #include "Tree/tree.h"
+#include <cstdio>
 #include <iostream>
 
 // 链表测试
@@ -142,7 +143,11 @@ void BT_test()
 {
     ds::BTree Btree;
     ds::BTreeNode* root = Btree.getRoot();
-    Btree.perOrderBT(root);
+    // Btree.perOrderBT(root);
+    printf("DFS: ");
+    Btree.DFS(root);
+    printf("\nBFS: ");
+    Btree.BFS(root);
 }
 int main()
 {
