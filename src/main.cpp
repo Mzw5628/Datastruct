@@ -3,6 +3,7 @@
 #include "Queue/queue.h"
 #include "Stack/stack.h"
 #include "Tree/tree.h"
+
 #include <cstdio>
 #include <iostream>
 
@@ -82,7 +83,7 @@ void doubeList_test()
     dlist.push_front(2);
     dlist.push_front(3);
     dlist.print();
-    std::cout << dlist.size();
+    printf("Size : %d", dlist.size());
 }
 
 // 循环链表测试
@@ -149,6 +150,31 @@ void BT_test()
     printf("\nBFS: ");
     Btree.BFS(root);
 }
+
+void BST_test()
+{
+    ds::BStree BSTree;
+    int arr[11] = { 8, 3, 10, 1, 6, 14, 4, 7, 13, 0, 2 };
+    for (auto& item : arr) {
+        BSTree.insert(item);
+        printf("%d ", item);
+    }
+    printf("\n");
+    BSTree.search(8);
+    BSTree.search(1024);
+
+    printf("inOrder:");
+    BSTree.inOrder(BSTree.getNode());
+    printf("\n");
+
+    BSTree.remove(6);
+    BSTree.remove(1);
+    BSTree.remove(7);
+    printf("inOrder:");
+    BSTree.inOrder(BSTree.getNode());
+    printf("\n");
+}
+
 int main()
 {
     // list_test();
@@ -168,7 +194,9 @@ int main()
     //    /
     //   G
     */
-    BT_test();
+    // BT_test();
+
+    BST_test();
 
     return 0;
 }

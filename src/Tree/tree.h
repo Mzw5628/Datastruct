@@ -38,8 +38,28 @@ public:
     void DFS(BTreeNode* r);
     void BFS(BTreeNode* r);
     BTreeNode* getRoot();
+
 private:
     BTreeNode* root;
 };
 
+// BST二叉排序树
+struct BSTreeNode {
+    int data;
+    BSTreeNode* left;
+    BSTreeNode* right;
+};
+
+class BStree {
+public:
+    BStree();
+    void insert(int data);
+    void search(int data);
+    void remove(int data);
+    void inOrder(BSTreeNode* r);
+    BSTreeNode* getNode();
+
+private:
+    BSTreeNode* root;
+};
 }
