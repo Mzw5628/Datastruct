@@ -10,6 +10,9 @@
     <ClCompile Include="D:\A_Person_Program\C++\Datastruct\src\Tree\BStree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\A_Person_Program\C++\Datastruct\src\Tree\AVLtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\A_Person_Program\C++\Datastruct\src\Tree\CMakeLists.txt" />

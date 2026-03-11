@@ -61,4 +61,32 @@ public:
 private:
     BSTreeNode* root;
 };
+
+// 平衡二叉树
+struct AVLNode {
+    int data;
+    AVLNode* left;
+    AVLNode* right;
+    int h;
+};
+
+class AVLtree {
+public:
+    AVLtree();
+    int max(int a, int b);
+    int geth(AVLNode* x);
+    AVLNode* CreateNode(int data);
+    AVLNode* LLrotation(AVLNode* x);
+    AVLNode* RRrotation(AVLNode* x);
+    AVLNode* LRrotation(AVLNode* x);
+    AVLNode* RLrotation(AVLNode* x);
+    AVLNode* search(int data);
+    void insert(int data);
+    void inorder(AVLNode* p);
+    AVLNode* getRoot();
+
+private:
+    AVLNode* insert(int data, AVLNode* root);
+    AVLNode* root;
+};
 }

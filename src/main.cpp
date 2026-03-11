@@ -175,6 +175,17 @@ void BST_test()
     printf("\n");
 }
 
+void AVL_test()
+{
+    ds::AVLtree AVLTree;
+    for(int i = 0; i < 10; i++) {
+        AVLTree.insert(i);
+    }
+    AVLTree.inorder(AVLTree.getRoot());
+
+    AVLTree.search(5);
+    AVLTree.search(1024);
+}
 int main()
 {
     // list_test();
@@ -194,9 +205,9 @@ int main()
     //    /
     //   G
     */
-    BT_test();
+    // BT_test();
 
     // BST_test();
-
+AVL_test();
     return 0;
 }

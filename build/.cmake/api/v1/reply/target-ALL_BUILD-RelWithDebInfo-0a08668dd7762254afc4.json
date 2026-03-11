@@ -22,10 +22,10 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+			"id" : "main_exec::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "main_exec::@6890427a1f51a3e7e1df"
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
 		},
 		{
 			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
@@ -49,10 +49,10 @@
 	"orderDependencies" : 
 	[
 		{
-			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+			"id" : "main_exec::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "main_exec::@6890427a1f51a3e7e1df"
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
 		},
 		{
 			"id" : "ds_stack_lib::@f121617b4b827aeae73b"

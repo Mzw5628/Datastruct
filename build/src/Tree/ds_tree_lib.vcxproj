@@ -307,6 +307,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\A_Person_Program\C++\Datastruct\src\Tree\tree.cpp" />
     <ClCompile Include="D:\A_Person_Program\C++\Datastruct\src\Tree\BTtree.cpp" />
     <ClCompile Include="D:\A_Person_Program\C++\Datastruct\src\Tree\BStree.cpp" />
+    <ClCompile Include="D:\A_Person_Program\C++\Datastruct\src\Tree\AVLtree.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
