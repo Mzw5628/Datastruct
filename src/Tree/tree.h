@@ -1,9 +1,8 @@
 #pragma once
 #include <cstdio>
-
 namespace ds {
 
-// 用数组存储的树
+// 用数组存储的树,父母表示法,并查集
 struct arrayTreeNode {
     char data;
     int parent;
@@ -54,7 +53,7 @@ class BStree {
 public:
     BStree();
     void insert(int data);
-    void search(int data);
+    BSTreeNode* search(int data);
     void remove(int data);
     void inOrder(BSTreeNode* r);
     BSTreeNode* getNode();

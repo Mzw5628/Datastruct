@@ -16,7 +16,7 @@ void BStree::insert(int data)
     }
     BSTreeNode* node = new BSTreeNode { data, nullptr, nullptr };
     BSTreeNode* p = root;
-    BSTreeNode* pre;
+    BSTreeNode* pre = nullptr;
     while (p) {
         pre = p;
         if (data > p->data) {
@@ -35,13 +35,13 @@ void BStree::insert(int data)
     }
 };
 
-void BStree::search(int data)
+BSTreeNode* BStree::search(int data)
 {
     BSTreeNode* p = root;
     while (p) {
         if (p->data == data) {
             printf("Find: %d in BSTree\n", data);
-            return;
+            return p;
         }
         if (data > p->data)
             p = p->right;
@@ -49,44 +49,81 @@ void BStree::search(int data)
             p = p->left;
     }
     printf("there is no %d\n", data);
+    return nullptr;
 }
 
 void BStree::remove(int data)
 {
     BSTreeNode* p = root;
-    BSTreeNode* pre = p;
+    BSTreeNode* pre = nullptr;
     while (p) {
-        if (p->data == data) {
-            if (p->left == p->right) {
-                if (data > pre->data) {
-                    pre->right = nullptr;
-                } else {
-                    pre->left = nullptr;
-                }
-                delete p;
-                return;
-            }
-
-            if (data > pre->data) {
-                pre->right = p->left;
-                p->left->right = p->right;
-            } else {
-                pre->left = p->right;
-                p->right->left = p->left;
-            }
-
-            delete p;
-            return;
-        }
+        //查找要删除的结点p
+        if (p->data == data)
+            break;
+        pre = p;
         if (data > p->data) {
-            pre = p;
             p = p->right;
         } else {
-            pre = p;
             p = p->left;
         }
     }
-    printf("there is no %d\n", data);
+
+    // p不存在
+    if (!p) {
+        printf("there is no %d\n", data);
+        return;
+    }
+
+    // 叶子结点
+    else if (!p->left && !p->right) {
+        if (!pre) {
+            // 根节点
+            root = nullptr;
+        } else if (p == pre->right) {
+            // p是右孩子
+            pre->right = nullptr;
+        } else {
+            // p是左孩子
+            pre->left = nullptr;
+        }
+        delete p;
+        return;
+    }
+
+    // 一个孩子结点
+    else if (!p->left || !p->right) {
+        BSTreeNode* child = p->left ? p->left : p->right;
+
+        if (!pre) {
+            //根节点
+            root = child;
+        } else if (pre->left == p) {
+            pre->left = child;
+        } else {
+            pre->right = child;
+        }
+        delete p;
+        return;
+    }
+
+    // 两个孩子结点
+    else {
+        BSTreeNode* parent = p;
+        BSTreeNode* child = p->right;
+
+        while (child->left) {
+            parent = child;
+            child = child->left;
+        }
+
+        p->data = child->data;
+        if (parent->left == child) {
+            parent->left = child->right;
+        } else {
+            parent->right = child->right;
+        }
+        delete child;
+    }
 }
 
 BSTreeNode* BStree::getNode()

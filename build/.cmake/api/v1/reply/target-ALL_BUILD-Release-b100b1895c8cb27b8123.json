@@ -1,0 +1,77 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+		},
+		{
+			"id" : "main_exec::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
+		},
+		{
+			"id" : "ds_queue_lib::@660059f3df795895acf2"
+		},
+		{
+			"id" : "ds_ArrayList_lib::@2ff0af7d97d7db4cb697"
+		},
+		{
+			"id" : "ds_tree_lib::@24651f8f7b17e11c43c2"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+		},
+		{
+			"id" : "main_exec::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
+		},
+		{
+			"id" : "ds_queue_lib::@660059f3df795895acf2"
+		},
+		{
+			"id" : "ds_ArrayList_lib::@2ff0af7d97d7db4cb697"
+		},
+		{
+			"id" : "ds_tree_lib::@24651f8f7b17e11c43c2"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

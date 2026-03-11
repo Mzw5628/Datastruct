@@ -194,9 +194,9 @@ int main()
     //    /
     //   G
     */
-    // BT_test();
+    BT_test();
 
-    BST_test();
+    // BST_test();
 
     return 0;
 }

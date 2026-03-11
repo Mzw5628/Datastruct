@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/A_Person_Program/C++/Datastruct/build/cmake_install.cmake",
+		"D:/A_Person_Program/C++/Datastruct/build/src/linkedList/cmake_install.cmake",
+		"D:/A_Person_Program/C++/Datastruct/build/src/Stack/cmake_install.cmake",
+		"D:/A_Person_Program/C++/Datastruct/build/src/Queue/cmake_install.cmake",
+		"D:/A_Person_Program/C++/Datastruct/build/src/ArrayList/cmake_install.cmake",
+		"D:/A_Person_Program/C++/Datastruct/build/src/Tree/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,10 @@
+^D:\A_PERSON_PROGRAM\C++\DATASTRUCT\BUILD\CMAKEFILES\EBE8DF964D9F75279B40703CC4EF0D53\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/A_Person_Program/C++/Datastruct -BD:/A_Person_Program/C++/Datastruct/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/A_Person_Program/C++/Datastruct/build/DataStructs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
