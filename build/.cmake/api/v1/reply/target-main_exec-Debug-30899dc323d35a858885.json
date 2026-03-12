@@ -148,14 +148,6 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
-		},
-		{
-			"backtrace" : 4,
-			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
-		},
-		{
 			"backtrace" : 5,
 			"id" : "ds_queue_lib::@660059f3df795895acf2"
 		},
@@ -166,6 +158,14 @@
 		{
 			"backtrace" : 6,
 			"id" : "ds_tree_lib::@24651f8f7b17e11c43c2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"

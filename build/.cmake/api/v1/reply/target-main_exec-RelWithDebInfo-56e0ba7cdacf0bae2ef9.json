@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/main_exec.exe"
+			"path" : "RelWithDebInfo/main_exec.exe"
 		},
 		{
-			"path" : "Release/main_exec.pdb"
+			"path" : "RelWithDebInfo/main_exec.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -104,7 +104,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"includes" : 
@@ -148,14 +148,6 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
-		},
-		{
-			"backtrace" : 4,
-			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
-		},
-		{
 			"backtrace" : 5,
 			"id" : "ds_queue_lib::@660059f3df795895acf2"
 		},
@@ -168,6 +160,14 @@
 			"id" : "ds_tree_lib::@24651f8f7b17e11c43c2"
 		},
 		{
+			"backtrace" : 3,
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
+		},
+		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -177,11 +177,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
 				"role" : "flags"
 			},
 			{
@@ -195,27 +195,27 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "src\\linkedList\\Release\\ds_list_lib.lib",
+				"fragment" : "src\\linkedList\\RelWithDebInfo\\ds_list_lib.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "src\\Stack\\Release\\ds_stack_lib.lib",
+				"fragment" : "src\\Stack\\RelWithDebInfo\\ds_stack_lib.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "src\\Queue\\Release\\ds_queue_lib.lib",
+				"fragment" : "src\\Queue\\RelWithDebInfo\\ds_queue_lib.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "src\\ArrayList\\Release\\ds_ArrayList_lib.lib",
+				"fragment" : "src\\ArrayList\\RelWithDebInfo\\ds_ArrayList_lib.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "src\\Tree\\Release\\ds_tree_lib.lib",
+				"fragment" : "src\\Tree\\RelWithDebInfo\\ds_tree_lib.lib",
 				"role" : "libraries"
 			},
 			{

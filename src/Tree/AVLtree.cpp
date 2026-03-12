@@ -133,6 +133,11 @@ AVLNode* AVLtree::getRoot()
 {
     return root;
 }
+
+void AVLtree::inorder()
+{
+    inorder(root);
+}
 void AVLtree::inorder(AVLNode* p)
 {
     if (p == nullptr)

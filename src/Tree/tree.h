@@ -81,12 +81,14 @@ public:
     AVLNode* LRrotation(AVLNode* x);
     AVLNode* RLrotation(AVLNode* x);
     AVLNode* search(int data);
+    void inorder();
     void insert(int data);
-    void inorder(AVLNode* p);
     AVLNode* getRoot();
 
 private:
     AVLNode* insert(int data, AVLNode* root);
+    void inorder(AVLNode* p);
+    
     AVLNode* root;
 };
 }

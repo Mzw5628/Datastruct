@@ -181,7 +181,7 @@ void AVL_test()
     for(int i = 0; i < 10; i++) {
         AVLTree.insert(i);
     }
-    AVLTree.inorder(AVLTree.getRoot());
+    AVLTree.inorder();
 
     AVLTree.search(5);
     AVLTree.search(1024);
