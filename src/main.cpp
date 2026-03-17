@@ -6,7 +6,6 @@
 
 #include <cstdio>
 #include <iostream>
-
 // 链表测试
 void list_test()
 {
@@ -164,14 +163,14 @@ void BST_test()
     BSTree.search(1024);
 
     printf("inOrder:");
-    BSTree.inOrder(BSTree.getNode());
+    BSTree.inOrder();
     printf("\n");
 
     BSTree.remove(6);
     BSTree.remove(1);
     BSTree.remove(7);
     printf("inOrder:");
-    BSTree.inOrder(BSTree.getNode());
+    BSTree.inOrder();
     printf("\n");
 }
 

@@ -55,11 +55,12 @@ public:
     void insert(int data);
     BSTreeNode* search(int data);
     void remove(int data);
-    void inOrder(BSTreeNode* r);
+    void inOrder();
     BSTreeNode* getNode();
 
 private:
     BSTreeNode* root;
+    void inOrder(BSTreeNode* r);
 };
 
 // 平衡二叉树

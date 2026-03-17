@@ -140,4 +140,9 @@ void BStree::inOrder(BSTreeNode* r)
     printf("%d ", r->data);
     inOrder(r->right);
 }
+
+void BStree::inOrder()
+{
+    inOrder(root);
+}
 }
