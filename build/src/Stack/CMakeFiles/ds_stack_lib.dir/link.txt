@@ -1,0 +1,2 @@
+D:\Development_tools\mingw64\bin\ar.exe qc libds_stack_lib.a CMakeFiles/ds_stack_lib.dir/stack.cpp.obj
+D:\Development_tools\mingw64\bin\ranlib.exe libds_stack_lib.a

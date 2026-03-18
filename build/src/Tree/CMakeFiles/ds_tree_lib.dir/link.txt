@@ -1,0 +1,2 @@
+D:\Development_tools\mingw64\bin\ar.exe qc libds_tree_lib.a CMakeFiles/ds_tree_lib.dir/tree.cpp.obj CMakeFiles/ds_tree_lib.dir/BTtree.cpp.obj CMakeFiles/ds_tree_lib.dir/BStree.cpp.obj CMakeFiles/ds_tree_lib.dir/AVLtree.cpp.obj
+D:\Development_tools\mingw64\bin\ranlib.exe libds_tree_lib.a

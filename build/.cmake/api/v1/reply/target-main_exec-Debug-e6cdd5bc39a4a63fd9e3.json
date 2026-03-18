@@ -1,0 +1,267 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "main_exec.exe"
+		},
+		{
+			"path" : "main_exec.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ds_queue_lib::@660059f3df795895acf2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ds_ArrayList_lib::@2ff0af7d97d7db4cb697"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ds_tree_lib::@24651f8f7b17e11c43c2"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "D:/A_Person_Program/C++/Datastruct/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/A_Person_Program/C++/Datastruct/src/linkedList"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/A_Person_Program/C++/Datastruct/src/Stack"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/A_Person_Program/C++/Datastruct/src/Queue"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/A_Person_Program/C++/Datastruct/src/Tree"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ds_queue_lib::@660059f3df795895acf2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ds_ArrayList_lib::@2ff0af7d97d7db4cb697"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ds_tree_lib::@24651f8f7b17e11c43c2"
+		}
+	],
+	"id" : "main_exec::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LD:\\A_Person_Program\\C++\\Datastruct\\src\\ArrayList",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src\\linkedList\\libds_list_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "src\\Stack\\libds_stack_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "src\\Queue\\libds_queue_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src\\ArrayList\\libds_ArrayList_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "src\\Tree\\libds_tree_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ds_list_lib::@2db8a326b937352d3fe0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ds_stack_lib::@f121617b4b827aeae73b"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ds_queue_lib::@660059f3df795895acf2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ds_ArrayList_lib::@2ff0af7d97d7db4cb697"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ds_tree_lib::@24651f8f7b17e11c43c2"
+		}
+	],
+	"name" : "main_exec",
+	"nameOnDisk" : "main_exec.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

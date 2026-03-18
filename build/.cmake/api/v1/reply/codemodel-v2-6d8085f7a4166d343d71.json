@@ -1,0 +1,189 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/linkedList",
+					"jsonFile" : "directory-src.linkedList-Debug-62895eb5a4678a26e15b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/linkedList",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/Stack",
+					"jsonFile" : "directory-src.Stack-Debug-01ac69620d8464726fa1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Stack",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/Queue",
+					"jsonFile" : "directory-src.Queue-Debug-93b9234172bbc63cb9d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Queue",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/ArrayList",
+					"jsonFile" : "directory-src.ArrayList-Debug-7be21d17bd2079e876bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/ArrayList",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/Tree",
+					"jsonFile" : "directory-src.Tree-Debug-983156c1a2bbf282ad5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Tree",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "DataStructs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "ds_ArrayList_lib::@2ff0af7d97d7db4cb697",
+					"jsonFile" : "target-ds_ArrayList_lib-Debug-325c6585016ee1c51388.json",
+					"name" : "ds_ArrayList_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ds_list_lib::@2db8a326b937352d3fe0",
+					"jsonFile" : "target-ds_list_lib-Debug-7a7ec5df65389a532480.json",
+					"name" : "ds_list_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ds_queue_lib::@660059f3df795895acf2",
+					"jsonFile" : "target-ds_queue_lib-Debug-69d213bf5cb3da4c8eff.json",
+					"name" : "ds_queue_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ds_stack_lib::@f121617b4b827aeae73b",
+					"jsonFile" : "target-ds_stack_lib-Debug-dd9145faee3948cfc5f8.json",
+					"name" : "ds_stack_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ds_tree_lib::@24651f8f7b17e11c43c2",
+					"jsonFile" : "target-ds_tree_lib-Debug-31d22d870e6beb85d16d.json",
+					"name" : "ds_tree_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_exec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_exec-Debug-e6cdd5bc39a4a63fd9e3.json",
+					"name" : "main_exec",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/A_Person_Program/C++/Datastruct/build",
+		"source" : "D:/A_Person_Program/C++/Datastruct"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

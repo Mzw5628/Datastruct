@@ -177,7 +177,7 @@ void BST_test()
 void AVL_test()
 {
     ds::AVLtree AVLTree;
-    for(int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {
         AVLTree.insert(i);
     }
     AVLTree.inorder();
@@ -207,6 +207,6 @@ int main()
     // BT_test();
 
     // BST_test();
-AVL_test();
+    AVL_test();
     return 0;
 }

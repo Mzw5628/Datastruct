@@ -1,0 +1,1 @@
+  -LD:/A_Person_Program/C++/Datastruct/src/ArrayList  src/linkedList/libds_list_lib.a src/Stack/libds_stack_lib.a src/Queue/libds_queue_lib.a src/ArrayList/libds_ArrayList_lib.a src/Tree/libds_tree_lib.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

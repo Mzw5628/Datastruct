@@ -136,6 +136,7 @@ AVLNode* AVLtree::getRoot()
 
 void AVLtree::inorder()
 {
+    printf("各个节点的平衡因子：\n");
     inorder(root);
 }
 void AVLtree::inorder(AVLNode* p)
