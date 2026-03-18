@@ -27,12 +27,18 @@ queue::~queue()
 
 void queue::push(int x)
 {
+    if (rear == MAXSIZE) {
+        std::cout << "Queue is full\n";
+}
     arr[rear] = x;
     rear = (rear + 1) % MAXSIZE;
 }
 
 void queue::pop()
 {
+    if (front == rear) {
+        std::cout << "Queue is empty\n";
+    }
     front = (front + 1) % MAXSIZE;
 }
 
