@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#define MAXSIZE 1000
 namespace ds {
 
 class stack {
@@ -15,7 +14,7 @@ public:
     int size();
 
 private:
-    int arr[MAXSIZE];
+    int *arr;
     int len;
 };
 }
