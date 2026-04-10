@@ -1,0 +1,74 @@
+[
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\ArrayList\\ArrayList.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\ArrayList\\ArrayList.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/ArrayList/ArrayList.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/ArrayList/ArrayList.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\LinkedList\\circle_list.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\LinkedList\\circle_list.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/LinkedList/circle_list.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/LinkedList/circle_list.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\LinkedList\\doubly_list.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\LinkedList\\doubly_list.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/LinkedList/doubly_list.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/LinkedList/doubly_list.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\LinkedList\\linked_list.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\LinkedList\\linked_list.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/LinkedList/linked_list.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/LinkedList/linked_list.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\LinkedList\\linked_list_with_head.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\LinkedList\\linked_list_with_head.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/LinkedList/linked_list_with_head.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/LinkedList/linked_list_with_head.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Queue\\queue.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Queue\\queue.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Queue/queue.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Queue/queue.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Stack\\stack.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Stack\\stack.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Stack/stack.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Tree\\AVLtree.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Tree\\AVLtree.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Tree/AVLtree.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Tree\\BStree.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Tree\\BStree.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Tree/BStree.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Tree\\BTtree.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Tree\\BTtree.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Tree/BTtree.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Tree/BTtree.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Tree\\tree.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Tree\\tree.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Tree/tree.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Tree/tree.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp  -O2 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\main.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\main.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/main.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/main.cpp.obj"
+}
+]

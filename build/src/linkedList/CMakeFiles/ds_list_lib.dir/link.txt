@@ -1,0 +1,2 @@
+D:\Development_tools\mingw64\bin\ar.exe qc libds_list_lib.a CMakeFiles/ds_list_lib.dir/linked_list.cpp.obj CMakeFiles/ds_list_lib.dir/circle_list.cpp.obj CMakeFiles/ds_list_lib.dir/doubly_list.cpp.obj CMakeFiles/ds_list_lib.dir/linked_list_with_head.cpp.obj
+D:\Development_tools\mingw64\bin\ranlib.exe libds_list_lib.a
