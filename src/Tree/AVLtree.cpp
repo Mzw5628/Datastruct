@@ -1,6 +1,6 @@
 #include "tree.h"
 #include <cstdio>
-using namespace ds;
+namespace ds{
 
 AVLtree::AVLtree()
 {
@@ -45,6 +45,7 @@ AVLNode* AVLtree::search(int data)
     printf("there is no %d\n", data);
     return nullptr;
 }
+
 // 四种调整
 // 因为在结点x的左孩子的左子树中插入了新结点，导致x失衡，以x为根的子树变成最小失衡子树，对x进行一次右旋
 AVLNode* AVLtree::LLrotation(AVLNode* x)
@@ -147,4 +148,5 @@ void AVLtree::inorder(AVLNode* p)
     inorder(p->left);
     printf("%d,%d \n", p->data, geth(p->left) - geth(p->right));
     inorder(p->right);
+}
 }

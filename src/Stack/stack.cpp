@@ -42,5 +42,4 @@ int stack::size()
     return len;
 }
 
-
 }

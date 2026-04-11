@@ -272,6 +272,30 @@ src/Queue/queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Queue/queue.cpp.s
 .PHONY : src/Queue/queue.cpp.s
 
+src/Sort/bubble.obj: src/Sort/bubble.cpp.obj
+.PHONY : src/Sort/bubble.obj
+
+# target to build an object file
+src/Sort/bubble.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/bubble.cpp.obj
+.PHONY : src/Sort/bubble.cpp.obj
+
+src/Sort/bubble.i: src/Sort/bubble.cpp.i
+.PHONY : src/Sort/bubble.i
+
+# target to preprocess a source file
+src/Sort/bubble.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/bubble.cpp.i
+.PHONY : src/Sort/bubble.cpp.i
+
+src/Sort/bubble.s: src/Sort/bubble.cpp.s
+.PHONY : src/Sort/bubble.s
+
+# target to generate assembly for a file
+src/Sort/bubble.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/bubble.cpp.s
+.PHONY : src/Sort/bubble.cpp.s
+
 src/Stack/stack.obj: src/Stack/stack.cpp.obj
 .PHONY : src/Stack/stack.obj
 
@@ -344,29 +368,29 @@ src/Tree/BStree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.s
 .PHONY : src/Tree/BStree.cpp.s
 
-src/Tree/BTtree.obj: src/Tree/BTtree.cpp.obj
-.PHONY : src/Tree/BTtree.obj
+src/Tree/Bitree.obj: src/Tree/Bitree.cpp.obj
+.PHONY : src/Tree/Bitree.obj
 
 # target to build an object file
-src/Tree/BTtree.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Tree/BTtree.cpp.obj
-.PHONY : src/Tree/BTtree.cpp.obj
+src/Tree/Bitree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.obj
+.PHONY : src/Tree/Bitree.cpp.obj
 
-src/Tree/BTtree.i: src/Tree/BTtree.cpp.i
-.PHONY : src/Tree/BTtree.i
+src/Tree/Bitree.i: src/Tree/Bitree.cpp.i
+.PHONY : src/Tree/Bitree.i
 
 # target to preprocess a source file
-src/Tree/BTtree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Tree/BTtree.cpp.i
-.PHONY : src/Tree/BTtree.cpp.i
+src/Tree/Bitree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.i
+.PHONY : src/Tree/Bitree.cpp.i
 
-src/Tree/BTtree.s: src/Tree/BTtree.cpp.s
-.PHONY : src/Tree/BTtree.s
+src/Tree/Bitree.s: src/Tree/Bitree.cpp.s
+.PHONY : src/Tree/Bitree.s
 
 # target to generate assembly for a file
-src/Tree/BTtree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Tree/BTtree.cpp.s
-.PHONY : src/Tree/BTtree.cpp.s
+src/Tree/Bitree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.s
+.PHONY : src/Tree/Bitree.cpp.s
 
 src/Tree/tree.obj: src/Tree/tree.cpp.obj
 .PHONY : src/Tree/tree.obj
@@ -443,6 +467,9 @@ help:
 	@echo ... src/Queue/queue.obj
 	@echo ... src/Queue/queue.i
 	@echo ... src/Queue/queue.s
+	@echo ... src/Sort/bubble.obj
+	@echo ... src/Sort/bubble.i
+	@echo ... src/Sort/bubble.s
 	@echo ... src/Stack/stack.obj
 	@echo ... src/Stack/stack.i
 	@echo ... src/Stack/stack.s
@@ -452,9 +479,9 @@ help:
 	@echo ... src/Tree/BStree.obj
 	@echo ... src/Tree/BStree.i
 	@echo ... src/Tree/BStree.s
-	@echo ... src/Tree/BTtree.obj
-	@echo ... src/Tree/BTtree.i
-	@echo ... src/Tree/BTtree.s
+	@echo ... src/Tree/Bitree.obj
+	@echo ... src/Tree/Bitree.i
+	@echo ... src/Tree/Bitree.s
 	@echo ... src/Tree/tree.obj
 	@echo ... src/Tree/tree.i
 	@echo ... src/Tree/tree.s

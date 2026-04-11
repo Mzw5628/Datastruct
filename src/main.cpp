@@ -3,6 +3,7 @@
 #include "Queue/queue.h"
 #include "Stack/stack.h"
 #include "Tree/tree.h"
+#include "Sort/sort.h"
 
 #include <cstdio>
 #include <iostream>
@@ -124,6 +125,7 @@ void array_test()
     array.print();
 }
 
+// 树父母表示法测试
 void tree_test()
 {
     // 设置根节点
@@ -185,6 +187,23 @@ void AVL_test()
     AVLTree.search(5);
     AVLTree.search(1024);
 }
+
+void bubble_sort_test()
+{
+    int arr[10] = { 5, 2, 9, 1, 5, 6, 7, 3, 4, 8 };
+    printf("Before sort: ");
+    for (int i = 0; i < 10; ++i) {
+        printf("%d ", arr[i]);
+    }
+
+    ds::bubble_sort(arr, 10);
+    printf("\nAfter sort: ");
+    for (int i = 0; i < 10; ++i) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
 int main()
 {
     // list_test();
@@ -207,6 +226,8 @@ int main()
     // BT_test();
 
     // BST_test();
-    AVL_test();
+    // AVL_test();
+
+    bubble_sort_test();
     return 0;
 }

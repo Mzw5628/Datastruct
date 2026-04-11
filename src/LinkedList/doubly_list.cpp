@@ -1,5 +1,5 @@
 #include "linked_list.h"
-
+#include <cstdio>
 namespace ds {
 doublyList::doublyList()
     : head(nullptr)
@@ -60,10 +60,10 @@ void doublyList::print() const
 {
     doublyNode* front = head;
     while (front) {
-        std::cout << front->data << ' ';
+        printf("%d ", front->data);
         front = front->next;
     }
-    std::cout << '\n';
+    printf("\n");
 }
 
 int doublyList::size() const

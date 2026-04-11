@@ -1,6 +1,11 @@
 CMakeFiles/main_exec.dir/src/main.cpp.obj: \
  D:\A_Person_Program\C++\Datastruct\src\main.cpp \
  D:\A_Person_Program\C++\Datastruct\src\ArrayList/ArrayList.h \
+ D:\A_Person_Program\C++\Datastruct\src\LinkedList/linked_list.h \
+ D:\A_Person_Program\C++\Datastruct\src\Queue/queue.h \
+ D:\A_Person_Program\C++\Datastruct\src\Stack/stack.h \
+ D:\A_Person_Program\C++\Datastruct\src\Tree/tree.h \
+ D:\A_Person_Program\C++\Datastruct\src\Sort/sort.h \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdio \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -17,7 +22,6 @@ CMakeFiles/main_exec.dir/src/main.cpp.obj: \
  D:/Development_tools/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
  D:/Development_tools/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  D:/Development_tools/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- D:\A_Person_Program\C++\Datastruct\src\LinkedList/linked_list.h \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ostream \
@@ -134,7 +138,4 @@ CMakeFiles/main_exec.dir/src/main.cpp.obj: \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/basic_ios.tcc \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream.tcc \
  D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
- D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc \
- D:\A_Person_Program\C++\Datastruct\src\Queue/queue.h \
- D:\A_Person_Program\C++\Datastruct\src\Stack/stack.h \
- D:\A_Person_Program\C++\Datastruct\src\Tree/tree.h
+ D:/Development_tools/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc

@@ -1,5 +1,5 @@
 #include "linked_list.h"
-
+#include <cstdio>
 namespace ds {
 
 // 循环链表

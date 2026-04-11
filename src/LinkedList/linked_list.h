@@ -1,5 +1,4 @@
 #pragma once
-
 namespace ds {
 
 // 该节点只有指向后续节点的指针
