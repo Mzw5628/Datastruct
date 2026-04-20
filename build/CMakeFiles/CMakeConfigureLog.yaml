@@ -5,14 +5,14 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       The system is: Windows - 10.0.26200 - AMD64
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -59,6 +59,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -70,8 +71,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
@@ -120,20 +122,22 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
@@ -142,7 +146,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -200,27 +204,29 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: D:/Development_tools/mingw64/bin/g++.exe 
@@ -241,7 +247,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -288,6 +294,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -299,8 +306,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/ar.com"
     found: "D:/Development_tools/mingw64/bin/ar.exe"
@@ -345,26 +353,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -411,6 +421,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -422,8 +433,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/ranlib.com"
     found: "D:/Development_tools/mingw64/bin/ranlib.exe"
@@ -468,26 +480,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -534,6 +548,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -545,8 +560,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/strip.com"
     found: "D:/Development_tools/mingw64/bin/strip.exe"
@@ -591,26 +607,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -657,6 +675,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -668,8 +687,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/ld.com"
     found: "D:/Development_tools/mingw64/bin/ld.exe"
@@ -714,26 +734,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -780,6 +802,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -791,8 +814,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/nm.com"
     found: "D:/Development_tools/mingw64/bin/nm.exe"
@@ -837,26 +861,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -903,6 +929,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -914,8 +941,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/objdump.com"
     found: "D:/Development_tools/mingw64/bin/objdump.exe"
@@ -960,26 +988,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -1026,6 +1056,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -1037,8 +1068,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/objcopy.com"
     found: "D:/Development_tools/mingw64/bin/objcopy.exe"
@@ -1083,26 +1115,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -1149,6 +1183,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -1160,8 +1195,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/readelf.com"
     found: "D:/Development_tools/mingw64/bin/readelf.exe"
@@ -1206,26 +1242,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1272,6 +1310,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -1283,8 +1322,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/dlltool.com"
     found: "D:/Development_tools/mingw64/bin/dlltool.exe"
@@ -1329,26 +1369,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1395,6 +1437,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -1406,8 +1449,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/addr2line.com"
     found: "D:/Development_tools/mingw64/bin/addr2line.exe"
@@ -1452,26 +1496,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1518,6 +1564,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -1529,8 +1576,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/tapi.com"
       - "D:/Development_tools/mingw64/bin/tapi.exe"
@@ -1628,6 +1676,9 @@ events:
       - "C:/Program Files/CMake/bin/tapi.com"
       - "C:/Program Files/CMake/bin/tapi.exe"
       - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Program Files/PowerShell/7/tapi.com"
+      - "C:/Program Files/PowerShell/7/tapi.exe"
+      - "C:/Program Files/PowerShell/7/tapi"
       - "D:/Development_tools/Git/cmd/tapi.com"
       - "D:/Development_tools/Git/cmd/tapi.exe"
       - "D:/Development_tools/Git/cmd/tapi"
@@ -1661,12 +1712,15 @@ events:
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/tapi.com"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/tapi.exe"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/tapi"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/tapi.com"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/tapi.exe"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/tapi"
       - "C:/texlive/2026/bin/windows/tapi.com"
       - "C:/texlive/2026/bin/windows/tapi.exe"
       - "C:/texlive/2026/bin/windows/tapi"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/tapi.com"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/tapi.exe"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/tapi"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/tapi.com"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/tapi.exe"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -1709,26 +1763,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1778,6 +1834,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -1789,8 +1846,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/gcc-ar-14.2.com"
       - "D:/Development_tools/mingw64/bin/gcc-ar-14.2.exe"
@@ -1888,6 +1946,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar-14.2.com"
       - "C:/Program Files/CMake/bin/gcc-ar-14.2.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-14.2"
+      - "C:/Program Files/PowerShell/7/gcc-ar-14.2.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar-14.2.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar-14.2"
       - "D:/Development_tools/Git/cmd/gcc-ar-14.2.com"
       - "D:/Development_tools/Git/cmd/gcc-ar-14.2.exe"
       - "D:/Development_tools/Git/cmd/gcc-ar-14.2"
@@ -1921,12 +1982,15 @@ events:
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar-14.2.com"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar-14.2.exe"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar-14.2"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.2.com"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.2.exe"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.2"
       - "C:/texlive/2026/bin/windows/gcc-ar-14.2.com"
       - "C:/texlive/2026/bin/windows/gcc-ar-14.2.exe"
       - "C:/texlive/2026/bin/windows/gcc-ar-14.2"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.2.com"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.2.exe"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.2"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar-14.2.com"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar-14.2.exe"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar-14.2"
       - "D:/Development_tools/mingw64/bin/gcc-ar-14.com"
       - "D:/Development_tools/mingw64/bin/gcc-ar-14.exe"
       - "D:/Development_tools/mingw64/bin/gcc-ar-14"
@@ -2023,6 +2087,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar-14.com"
       - "C:/Program Files/CMake/bin/gcc-ar-14.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-14"
+      - "C:/Program Files/PowerShell/7/gcc-ar-14.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar-14.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar-14"
       - "D:/Development_tools/Git/cmd/gcc-ar-14.com"
       - "D:/Development_tools/Git/cmd/gcc-ar-14.exe"
       - "D:/Development_tools/Git/cmd/gcc-ar-14"
@@ -2056,12 +2123,15 @@ events:
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar-14.com"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar-14.exe"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar-14"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.com"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.exe"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14"
       - "C:/texlive/2026/bin/windows/gcc-ar-14.com"
       - "C:/texlive/2026/bin/windows/gcc-ar-14.exe"
       - "C:/texlive/2026/bin/windows/gcc-ar-14"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.com"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14.exe"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar-14"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar-14.com"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar-14.exe"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar-14"
       - "D:/Development_tools/mingw64/bin/gcc-ar14.com"
       - "D:/Development_tools/mingw64/bin/gcc-ar14.exe"
       - "D:/Development_tools/mingw64/bin/gcc-ar14"
@@ -2158,6 +2228,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar14.com"
       - "C:/Program Files/CMake/bin/gcc-ar14.exe"
       - "C:/Program Files/CMake/bin/gcc-ar14"
+      - "C:/Program Files/PowerShell/7/gcc-ar14.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar14.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar14"
       - "D:/Development_tools/Git/cmd/gcc-ar14.com"
       - "D:/Development_tools/Git/cmd/gcc-ar14.exe"
       - "D:/Development_tools/Git/cmd/gcc-ar14"
@@ -2191,12 +2264,15 @@ events:
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar14.com"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar14.exe"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ar14"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar14.com"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar14.exe"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar14"
       - "C:/texlive/2026/bin/windows/gcc-ar14.com"
       - "C:/texlive/2026/bin/windows/gcc-ar14.exe"
       - "C:/texlive/2026/bin/windows/gcc-ar14"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar14.com"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar14.exe"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ar14"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar14.com"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar14.exe"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ar14"
       - "D:/Development_tools/mingw64/bin/gcc-ar.com"
     found: "D:/Development_tools/mingw64/bin/gcc-ar.exe"
     search_context:
@@ -2240,26 +2316,28 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2309,6 +2387,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -2320,8 +2399,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
     searched_directories:
       - "D:/Development_tools/mingw64/bin/gcc-ranlib-14.2.com"
       - "D:/Development_tools/mingw64/bin/gcc-ranlib-14.2.exe"
@@ -2419,6 +2499,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib-14.2.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-14.2.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-14.2"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-14.2.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-14.2"
       - "D:/Development_tools/Git/cmd/gcc-ranlib-14.2.com"
       - "D:/Development_tools/Git/cmd/gcc-ranlib-14.2.exe"
       - "D:/Development_tools/Git/cmd/gcc-ranlib-14.2"
@@ -2452,12 +2535,15 @@ events:
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib-14.2.com"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib-14.2.exe"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib-14.2"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.2.com"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.2.exe"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.2"
       - "C:/texlive/2026/bin/windows/gcc-ranlib-14.2.com"
       - "C:/texlive/2026/bin/windows/gcc-ranlib-14.2.exe"
       - "C:/texlive/2026/bin/windows/gcc-ranlib-14.2"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.2.com"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.2.exe"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.2"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib-14.2.com"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib-14.2.exe"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib-14.2"
       - "D:/Development_tools/mingw64/bin/gcc-ranlib-14.com"
       - "D:/Development_tools/mingw64/bin/gcc-ranlib-14.exe"
       - "D:/Development_tools/mingw64/bin/gcc-ranlib-14"
@@ -2554,6 +2640,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib-14.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-14.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-14"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-14.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-14.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-14"
       - "D:/Development_tools/Git/cmd/gcc-ranlib-14.com"
       - "D:/Development_tools/Git/cmd/gcc-ranlib-14.exe"
       - "D:/Development_tools/Git/cmd/gcc-ranlib-14"
@@ -2587,12 +2676,15 @@ events:
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib-14.com"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib-14.exe"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib-14"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.com"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.exe"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14"
       - "C:/texlive/2026/bin/windows/gcc-ranlib-14.com"
       - "C:/texlive/2026/bin/windows/gcc-ranlib-14.exe"
       - "C:/texlive/2026/bin/windows/gcc-ranlib-14"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.com"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14.exe"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib-14"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib-14.com"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib-14.exe"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib-14"
       - "D:/Development_tools/mingw64/bin/gcc-ranlib14.com"
       - "D:/Development_tools/mingw64/bin/gcc-ranlib14.exe"
       - "D:/Development_tools/mingw64/bin/gcc-ranlib14"
@@ -2689,6 +2781,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib14.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib14.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib14"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib14.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib14.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib14"
       - "D:/Development_tools/Git/cmd/gcc-ranlib14.com"
       - "D:/Development_tools/Git/cmd/gcc-ranlib14.exe"
       - "D:/Development_tools/Git/cmd/gcc-ranlib14"
@@ -2722,12 +2817,15 @@ events:
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib14.com"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib14.exe"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/gcc-ranlib14"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib14.com"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib14.exe"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib14"
       - "C:/texlive/2026/bin/windows/gcc-ranlib14.com"
       - "C:/texlive/2026/bin/windows/gcc-ranlib14.exe"
       - "C:/texlive/2026/bin/windows/gcc-ranlib14"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib14.com"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib14.exe"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/gcc-ranlib14"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib14.com"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib14.exe"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/gcc-ranlib14"
       - "D:/Development_tools/mingw64/bin/gcc-ranlib.com"
     found: "D:/Development_tools/mingw64/bin/gcc-ranlib.exe"
     search_context:
@@ -2771,20 +2869,22 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
   -
     kind: "find-v1"
     backtrace:
@@ -2792,7 +2892,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -2840,6 +2940,7 @@ events:
       - "D:/Development_tools/apache-tomcat-11.0.13/bin/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
       - "D:/Development_tools/Git/cmd/"
       - "C:/Users/24173/.cargo/bin/"
       - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps/"
@@ -2851,8 +2952,9 @@ events:
       - "C:/Users/24173/AppData/Roaming/npm/"
       - "D:/Development_tools/Microsoft VS Code/bin/"
       - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin/"
-      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
       - "C:/texlive/2026/bin/windows/"
+      - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/24173/AppData/Local/Programs/Ollama/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -2909,20 +3011,22 @@ events:
         - "D:\\Development_tools\\apache-tomcat-11.0.13\\bin"
         - "C:/Program Files/nodejs/"
         - "C:\\Program Files\\CMake\\bin"
-        - "D:/Development_tools/Git/cmd"
-        - "C:\\Users\\24173\\.cargo\\bin"
-        - "C:/Users/24173/AppData/Local/Microsoft/WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:/Latex/2023/bin/windows"
-        - "D:\\Development_tools\\mingw64\\bin"
-        - "D:/tools/vcpkg-master"
-        - "D:\\tools\\NoSQL\\MongoDB\\bin"
-        - "D:/tools/NoSQL/neo4j-community-4.4.9/bin"
-        - "C:\\Users\\24173\\AppData\\Roaming\\npm"
-        - "D:/Development_tools/Microsoft VS Code/bin"
-        - "D:\\tools\\vcpkg-master\\downloads\\tools\\clang\\clang-15.0.6\\bin"
-        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:/Program Files/PowerShell/7/"
+        - "D:\\Development_tools\\Git\\cmd"
+        - "C:/Users/24173/.cargo/bin"
+        - "C:\\Users\\24173\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\Latex\\2023\\bin\\windows"
+        - "D:/Development_tools/mingw64/bin"
+        - "D:\\tools\\vcpkg-master"
+        - "D:/tools/NoSQL/MongoDB/bin"
+        - "D:\\tools\\NoSQL\\neo4j-community-4.4.9\\bin"
+        - "C:/Users/24173/AppData/Roaming/npm"
+        - "D:\\Development_tools\\Microsoft VS Code\\bin"
+        - "D:/tools/vcpkg-master/downloads/tools/clang/clang-15.0.6/bin"
         - "C:\\texlive\\2026\\bin\\windows"
+        - "C:/Users/24173/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\24173\\AppData\\Local\\Programs\\Ollama"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataStructs"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2934,12 +3038,12 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-r3dil4"
-      binary: "D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-r3dil4"
+      source: "D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-v8io7r"
+      binary: "D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-v8io7r"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2949,13 +3053,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-r3dil4'
+        Change Dir: 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-v8io7r'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Development_tools/mingw64/bin/mingw32-make.exe -f Makefile cmTC_dca70/fast
-        D:/Development_tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dca70.dir\\build.make CMakeFiles/cmTC_dca70.dir/build
-        mingw32-make[1]: Entering directory 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-r3dil4'
-        Building CXX object CMakeFiles/cmTC_dca70.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\Development_tools\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Development_tools/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c08f8/fast
+        D:/Development_tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c08f8.dir\\build.make CMakeFiles/cmTC_c08f8.dir/build
+        mingw32-make[1]: Entering directory 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-v8io7r'
+        Building CXX object CMakeFiles/cmTC_c08f8.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\Development_tools\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=D:\\Development_tools\\mingw64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -2963,8 +3067,8 @@ events:
         Thread model: win32
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dca70.dir\\'
-         D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_dca70.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\24173\\AppData\\Local\\Temp\\ccrsDhxO.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c08f8.dir\\'
+         D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c08f8.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\24173\\AppData\\Local\\Temp\\ccg6ezLd.s
         GNU C++17 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
         
@@ -2987,14 +3091,14 @@ events:
          D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: ef4db1507b07678853dc4e11dbb99195
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dca70.dir\\'
-         D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\24173\\AppData\\Local\\Temp\\ccrsDhxO.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c08f8.dir\\'
+         D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\24173\\AppData\\Local\\Temp\\ccg6ezLd.s
         GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42
         COMPILER_PATH=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;D:/Development_tools/mingw64/bin/../libexec/gcc/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;D:/Development_tools/mingw64/bin/../lib/gcc/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_dca70.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_dca70.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c08f8.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c08f8.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=D:\\Development_tools\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -3005,16 +3109,16 @@ events:
         gcc version 14.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
         COMPILER_PATH=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;D:/Development_tools/mingw64/bin/../libexec/gcc/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;D:/Development_tools/mingw64/bin/../lib/gcc/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dca70.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_dca70.'
-         D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\24173\\AppData\\Local\\Temp\\cc1cylN6.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_dca70.exe D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LD:/Development_tools/mingw64/bin/../lib/gcc -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_dca70.dir/objects.a --no-whole-archive --out-implib libcmTC_dca70.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c08f8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_c08f8.'
+         D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\24173\\AppData\\Local\\Temp\\cc0bJiaV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_c08f8.exe D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LD:/Development_tools/mingw64/bin/../lib/gcc -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c08f8.dir/objects.a --no-whole-archive --out-implib libcmTC_c08f8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\24173\\AppData\\Local\\Temp\\cc1cylN6.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_dca70.exe D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LD:/Development_tools/mingw64/bin/../lib/gcc -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_dca70.dir/objects.a --no-whole-archive --out-implib libcmTC_dca70.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\24173\\AppData\\Local\\Temp\\cc0bJiaV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_c08f8.exe D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LD:/Development_tools/mingw64/bin/../lib/gcc -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c08f8.dir/objects.a --no-whole-archive --out-implib libcmTC_c08f8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dca70.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_dca70.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_dca70.dir/objects.a
-        D:\\Development_tools\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_dca70.dir/objects.a @CMakeFiles\\cmTC_dca70.dir\\objects1.rsp
-        D:\\Development_tools\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_dca70.dir/objects.a -Wl,--no-whole-archive -o cmTC_dca70.exe -Wl,--out-implib,libcmTC_dca70.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-r3dil4'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c08f8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_c08f8.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c08f8.dir/objects.a
+        D:\\Development_tools\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c08f8.dir/objects.a @CMakeFiles\\cmTC_c08f8.dir\\objects1.rsp
+        D:\\Development_tools\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_c08f8.dir/objects.a -Wl,--no-whole-archive -o cmTC_c08f8.exe -Wl,--out-implib,libcmTC_c08f8.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-v8io7r'
         
       exitCode: 0
   -
@@ -3022,7 +3126,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -3048,18 +3152,18 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-r3dil4']
+        ignore line: [Change Dir: 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-v8io7r']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Development_tools/mingw64/bin/mingw32-make.exe -f Makefile cmTC_dca70/fast]
-        ignore line: [D:/Development_tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dca70.dir\\build.make CMakeFiles/cmTC_dca70.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-r3dil4']
-        ignore line: [Building CXX object CMakeFiles/cmTC_dca70.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\Development_tools\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Development_tools/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c08f8/fast]
+        ignore line: [D:/Development_tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c08f8.dir\\build.make CMakeFiles/cmTC_c08f8.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/A_Person_Program/C++/Datastruct/build/CMakeFiles/CMakeScratch/TryCompile-v8io7r']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c08f8.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\Development_tools\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\Development_tools\\mingw64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3067,8 +3171,8 @@ events:
         ignore line: [Thread model: win32]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dca70.dir\\']
-        ignore line: [ D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_dca70.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\24173\\AppData\\Local\\Temp\\ccrsDhxO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c08f8.dir\\']
+        ignore line: [ D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c08f8.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\24173\\AppData\\Local\\Temp\\ccg6ezLd.s]
         ignore line: [GNU C++17 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
         ignore line: []
@@ -3091,8 +3195,8 @@ events:
         ignore line: [ D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: ef4db1507b07678853dc4e11dbb99195]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dca70.dir\\']
-        ignore line: [ D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\24173\\AppData\\Local\\Temp\\ccrsDhxO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c08f8.dir\\']
+        ignore line: [ D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\24173\\AppData\\Local\\Temp\\ccg6ezLd.s]
         ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42]
         ignore line: [COMPILER_PATH=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [D:/Development_tools/mingw64/bin/../libexec/gcc/]
@@ -3103,9 +3207,9 @@ events:
         ignore line: [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dca70.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_dca70.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_dca70.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c08f8.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c08f8.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c08f8.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\Development_tools\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -3123,13 +3227,13 @@ events:
         ignore line: [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dca70.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_dca70.']
-        link line: [ D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\24173\\AppData\\Local\\Temp\\cc1cylN6.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_dca70.exe D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LD:/Development_tools/mingw64/bin/../lib/gcc -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_dca70.dir/objects.a --no-whole-archive --out-implib libcmTC_dca70.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c08f8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_c08f8.']
+        link line: [ D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\24173\\AppData\\Local\\Temp\\cc0bJiaV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_c08f8.exe D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LD:/Development_tools/mingw64/bin/../lib/gcc -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c08f8.dir/objects.a --no-whole-archive --out-implib libcmTC_c08f8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/Development_tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\24173\\AppData\\Local\\Temp\\cc1cylN6.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\24173\\AppData\\Local\\Temp\\cc0bJiaV.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -3152,7 +3256,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_dca70.exe] ==> ignore
+          arg [cmTC_c08f8.exe] ==> ignore
           arg [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -3163,10 +3267,10 @@ events:
           arg [-LD:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [D:/Development_tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_dca70.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_c08f8.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_dca70.dll.a] ==> ignore
+          arg [libcmTC_c08f8.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3214,7 +3318,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Running the CXX compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "-v"
       
@@ -3224,7 +3328,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Running the CXX compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "-V"
       
@@ -3234,7 +3338,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Running the CXX compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "--version"
       

@@ -188,17 +188,24 @@ void AVL_test()
     AVLTree.search(1024);
 }
 
-void bubble_sort_test()
+void sort_test()
 {
-    int arr[10] = { 5, 2, 9, 1, 5, 6, 7, 3, 4, 8 };
+    int arr[20];
+    for(int i = 0; i < 20; ++i) {
+        arr[i] = rand() % 100;
+    }
+
     printf("Before sort: ");
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < 20; ++i) {
         printf("%d ", arr[i]);
     }
 
-    ds::bubble_sort(arr, 10);
+    //选择排序方式
+    ds::heap_sort(arr, 20);
+    // ds::quick_sort(arr, 0, 19);
+
     printf("\nAfter sort: ");
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < 20; ++i) {
         printf("%d ", arr[i]);
     }
     printf("\n");
@@ -228,6 +235,6 @@ int main()
     // BST_test();
     // AVL_test();
 
-    bubble_sort_test();
+    sort_test();
     return 0;
 }

@@ -296,6 +296,78 @@ src/Sort/bubble.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/bubble.cpp.s
 .PHONY : src/Sort/bubble.cpp.s
 
+src/Sort/heap.obj: src/Sort/heap.cpp.obj
+.PHONY : src/Sort/heap.obj
+
+# target to build an object file
+src/Sort/heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj
+.PHONY : src/Sort/heap.cpp.obj
+
+src/Sort/heap.i: src/Sort/heap.cpp.i
+.PHONY : src/Sort/heap.i
+
+# target to preprocess a source file
+src/Sort/heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/heap.cpp.i
+.PHONY : src/Sort/heap.cpp.i
+
+src/Sort/heap.s: src/Sort/heap.cpp.s
+.PHONY : src/Sort/heap.s
+
+# target to generate assembly for a file
+src/Sort/heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/heap.cpp.s
+.PHONY : src/Sort/heap.cpp.s
+
+src/Sort/merge.obj: src/Sort/merge.cpp.obj
+.PHONY : src/Sort/merge.obj
+
+# target to build an object file
+src/Sort/merge.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj
+.PHONY : src/Sort/merge.cpp.obj
+
+src/Sort/merge.i: src/Sort/merge.cpp.i
+.PHONY : src/Sort/merge.i
+
+# target to preprocess a source file
+src/Sort/merge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/merge.cpp.i
+.PHONY : src/Sort/merge.cpp.i
+
+src/Sort/merge.s: src/Sort/merge.cpp.s
+.PHONY : src/Sort/merge.s
+
+# target to generate assembly for a file
+src/Sort/merge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/merge.cpp.s
+.PHONY : src/Sort/merge.cpp.s
+
+src/Sort/quick.obj: src/Sort/quick.cpp.obj
+.PHONY : src/Sort/quick.obj
+
+# target to build an object file
+src/Sort/quick.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj
+.PHONY : src/Sort/quick.cpp.obj
+
+src/Sort/quick.i: src/Sort/quick.cpp.i
+.PHONY : src/Sort/quick.i
+
+# target to preprocess a source file
+src/Sort/quick.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/quick.cpp.i
+.PHONY : src/Sort/quick.cpp.i
+
+src/Sort/quick.s: src/Sort/quick.cpp.s
+.PHONY : src/Sort/quick.s
+
+# target to generate assembly for a file
+src/Sort/quick.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main_exec.dir\build.make CMakeFiles/main_exec.dir/src/Sort/quick.cpp.s
+.PHONY : src/Sort/quick.cpp.s
+
 src/Stack/stack.obj: src/Stack/stack.cpp.obj
 .PHONY : src/Stack/stack.obj
 
@@ -470,6 +542,15 @@ help:
 	@echo ... src/Sort/bubble.obj
 	@echo ... src/Sort/bubble.i
 	@echo ... src/Sort/bubble.s
+	@echo ... src/Sort/heap.obj
+	@echo ... src/Sort/heap.i
+	@echo ... src/Sort/heap.s
+	@echo ... src/Sort/merge.obj
+	@echo ... src/Sort/merge.i
+	@echo ... src/Sort/merge.s
+	@echo ... src/Sort/quick.obj
+	@echo ... src/Sort/quick.i
+	@echo ... src/Sort/quick.s
 	@echo ... src/Stack/stack.obj
 	@echo ... src/Stack/stack.i
 	@echo ... src/Stack/stack.s

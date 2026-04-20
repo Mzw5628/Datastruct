@@ -176,11 +176,56 @@ CMakeFiles/main_exec.dir/src/Sort/bubble.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main_exec.dir/src/Sort/bubble.cpp.s"
 	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\A_Person_Program\C++\Datastruct\src\Sort\bubble.cpp -o CMakeFiles\main_exec.dir\src\Sort\bubble.cpp.s
 
+CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj: CMakeFiles/main_exec.dir/flags.make
+CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
+CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/Sort/heap.cpp
+CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj -MF CMakeFiles\main_exec.dir\src\Sort\heap.cpp.obj.d -o CMakeFiles\main_exec.dir\src\Sort\heap.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\Sort\heap.cpp
+
+CMakeFiles/main_exec.dir/src/Sort/heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main_exec.dir/src/Sort/heap.cpp.i"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\A_Person_Program\C++\Datastruct\src\Sort\heap.cpp > CMakeFiles\main_exec.dir\src\Sort\heap.cpp.i
+
+CMakeFiles/main_exec.dir/src/Sort/heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main_exec.dir/src/Sort/heap.cpp.s"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\A_Person_Program\C++\Datastruct\src\Sort\heap.cpp -o CMakeFiles\main_exec.dir\src\Sort\heap.cpp.s
+
+CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj: CMakeFiles/main_exec.dir/flags.make
+CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
+CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/Sort/merge.cpp
+CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj -MF CMakeFiles\main_exec.dir\src\Sort\merge.cpp.obj.d -o CMakeFiles\main_exec.dir\src\Sort\merge.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\Sort\merge.cpp
+
+CMakeFiles/main_exec.dir/src/Sort/merge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main_exec.dir/src/Sort/merge.cpp.i"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\A_Person_Program\C++\Datastruct\src\Sort\merge.cpp > CMakeFiles\main_exec.dir\src\Sort\merge.cpp.i
+
+CMakeFiles/main_exec.dir/src/Sort/merge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main_exec.dir/src/Sort/merge.cpp.s"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\A_Person_Program\C++\Datastruct\src\Sort\merge.cpp -o CMakeFiles\main_exec.dir\src\Sort\merge.cpp.s
+
+CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj: CMakeFiles/main_exec.dir/flags.make
+CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
+CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/Sort/quick.cpp
+CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj -MF CMakeFiles\main_exec.dir\src\Sort\quick.cpp.obj.d -o CMakeFiles\main_exec.dir\src\Sort\quick.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\Sort\quick.cpp
+
+CMakeFiles/main_exec.dir/src/Sort/quick.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main_exec.dir/src/Sort/quick.cpp.i"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\A_Person_Program\C++\Datastruct\src\Sort\quick.cpp > CMakeFiles\main_exec.dir\src\Sort\quick.cpp.i
+
+CMakeFiles/main_exec.dir/src/Sort/quick.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main_exec.dir/src/Sort/quick.cpp.s"
+	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\A_Person_Program\C++\Datastruct\src\Sort\quick.cpp -o CMakeFiles\main_exec.dir\src\Sort\quick.cpp.s
+
 CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj: CMakeFiles/main_exec.dir/flags.make
 CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
 CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/Stack/stack.cpp
 CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj"
 	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj -MF CMakeFiles\main_exec.dir\src\Stack\stack.cpp.obj.d -o CMakeFiles\main_exec.dir\src\Stack\stack.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\Stack\stack.cpp
 
 CMakeFiles/main_exec.dir/src/Stack/stack.cpp.i: cmake_force
@@ -195,7 +240,7 @@ CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj: CMakeFiles/main_exec.dir/flag
 CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
 CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/Tree/AVLtree.cpp
 CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj"
 	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj -MF CMakeFiles\main_exec.dir\src\Tree\AVLtree.cpp.obj.d -o CMakeFiles\main_exec.dir\src\Tree\AVLtree.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\Tree\AVLtree.cpp
 
 CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.i: cmake_force
@@ -210,7 +255,7 @@ CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj: CMakeFiles/main_exec.dir/flags
 CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
 CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/Tree/BStree.cpp
 CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj"
 	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj -MF CMakeFiles\main_exec.dir\src\Tree\BStree.cpp.obj.d -o CMakeFiles\main_exec.dir\src\Tree\BStree.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\Tree\BStree.cpp
 
 CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.i: cmake_force
@@ -225,7 +270,7 @@ CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.obj: CMakeFiles/main_exec.dir/flags
 CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
 CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/Tree/Bitree.cpp
 CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.obj"
 	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.obj -MF CMakeFiles\main_exec.dir\src\Tree\Bitree.cpp.obj.d -o CMakeFiles\main_exec.dir\src\Tree\Bitree.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\Tree\Bitree.cpp
 
 CMakeFiles/main_exec.dir/src/Tree/Bitree.cpp.i: cmake_force
@@ -240,7 +285,7 @@ CMakeFiles/main_exec.dir/src/Tree/tree.cpp.obj: CMakeFiles/main_exec.dir/flags.m
 CMakeFiles/main_exec.dir/src/Tree/tree.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
 CMakeFiles/main_exec.dir/src/Tree/tree.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/Tree/tree.cpp
 CMakeFiles/main_exec.dir/src/Tree/tree.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main_exec.dir/src/Tree/tree.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main_exec.dir/src/Tree/tree.cpp.obj"
 	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/Tree/tree.cpp.obj -MF CMakeFiles\main_exec.dir\src\Tree\tree.cpp.obj.d -o CMakeFiles\main_exec.dir\src\Tree\tree.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\Tree\tree.cpp
 
 CMakeFiles/main_exec.dir/src/Tree/tree.cpp.i: cmake_force
@@ -255,7 +300,7 @@ CMakeFiles/main_exec.dir/src/main.cpp.obj: CMakeFiles/main_exec.dir/flags.make
 CMakeFiles/main_exec.dir/src/main.cpp.obj: CMakeFiles/main_exec.dir/includes_CXX.rsp
 CMakeFiles/main_exec.dir/src/main.cpp.obj: D:/A_Person_Program/C++/Datastruct/src/main.cpp
 CMakeFiles/main_exec.dir/src/main.cpp.obj: CMakeFiles/main_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main_exec.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main_exec.dir/src/main.cpp.obj"
 	D:\Development_tools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/main.cpp.obj -MF CMakeFiles\main_exec.dir\src\main.cpp.obj.d -o CMakeFiles\main_exec.dir\src\main.cpp.obj -c D:\A_Person_Program\C++\Datastruct\src\main.cpp
 
 CMakeFiles/main_exec.dir/src/main.cpp.i: cmake_force
@@ -275,6 +320,9 @@ main_exec_OBJECTS = \
 "CMakeFiles/main_exec.dir/src/LinkedList/linked_list_with_head.cpp.obj" \
 "CMakeFiles/main_exec.dir/src/Queue/queue.cpp.obj" \
 "CMakeFiles/main_exec.dir/src/Sort/bubble.cpp.obj" \
+"CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj" \
+"CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj" \
+"CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj" \
 "CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj" \
 "CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj" \
 "CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj" \
@@ -292,6 +340,9 @@ main_exec.exe: CMakeFiles/main_exec.dir/src/LinkedList/linked_list.cpp.obj
 main_exec.exe: CMakeFiles/main_exec.dir/src/LinkedList/linked_list_with_head.cpp.obj
 main_exec.exe: CMakeFiles/main_exec.dir/src/Queue/queue.cpp.obj
 main_exec.exe: CMakeFiles/main_exec.dir/src/Sort/bubble.cpp.obj
+main_exec.exe: CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj
+main_exec.exe: CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj
+main_exec.exe: CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj
 main_exec.exe: CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj
 main_exec.exe: CMakeFiles/main_exec.dir/src/Tree/AVLtree.cpp.obj
 main_exec.exe: CMakeFiles/main_exec.dir/src/Tree/BStree.cpp.obj
@@ -302,7 +353,7 @@ main_exec.exe: CMakeFiles/main_exec.dir/build.make
 main_exec.exe: CMakeFiles/main_exec.dir/linkLibs.rsp
 main_exec.exe: CMakeFiles/main_exec.dir/objects1.rsp
 main_exec.exe: CMakeFiles/main_exec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable main_exec.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\A_Person_Program\C++\Datastruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable main_exec.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main_exec.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

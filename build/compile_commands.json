@@ -43,6 +43,24 @@
 },
 {
   "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Sort\\heap.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Sort\\heap.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Sort/heap.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Sort/heap.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Sort\\merge.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Sort\\merge.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Sort/merge.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Sort/merge.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
+  "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Sort\\quick.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Sort\\quick.cpp",
+  "file": "D:/A_Person_Program/C++/Datastruct/src/Sort/quick.cpp",
+  "output": "CMakeFiles/main_exec.dir/src/Sort/quick.cpp.obj"
+},
+{
+  "directory": "D:/A_Person_Program/C++/Datastruct/build",
   "command": "D:\\Development_tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main_exec.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\main_exec.dir\\src\\Stack\\stack.cpp.obj -c D:\\A_Person_Program\\C++\\Datastruct\\src\\Stack\\stack.cpp",
   "file": "D:/A_Person_Program/C++/Datastruct/src/Stack/stack.cpp",
   "output": "CMakeFiles/main_exec.dir/src/Stack/stack.cpp.obj"
